@@ -2,7 +2,7 @@ import * as React from "react";
 import { Box, Spinner, Stack, Center } from "@chakra-ui/react";
 import useComments from "../hooks/useComments";
 import Comment from "./Comment";
-import CommentEditor from "./CommentEditor";
+import CommentEditor from './CommentEditor'
 
 interface CommentsProps {
   topic: string;
